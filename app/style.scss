@@ -1,0 +1,64 @@
+.cat {
+    background-image: url(img/nyan-png/cat-sprite.png);
+    width: 68px;
+    height: 40px;
+    animation: run-cat 0.4s step-start infinite;
+}
+
+@keyframes run-cat {
+    0% {
+        background-position: -4px -5px;
+    }
+    20% {
+        background-position: -78px -5px;
+    }
+    40% {
+        background-position: -154px -5px;
+    }
+    60% {
+        background-position: -234px -5px;
+    }
+    80% {
+        background-position: -308px -5px;
+    }
+    100% {
+        background-position: -4px -5px;
+    }
+
+}
+
+/*.sprite {*/
+    /*background-image: url(spritesheet.png);*/
+    /*background-repeat: no-repeat;*/
+    /*display: block;*/
+/*}*/
+
+/*.sprite-costume1 {*/
+    /*width: 64px;*/
+    /*height: 40px;*/
+    /*background-position: -5px -5px;*/
+/*}*/
+
+/*.sprite-costume2 {*/
+    /*width: 66px;*/
+    /*height: 40px;*/
+    /*background-position: -79px -5px;*/
+/*}*/
+
+/*.sprite-costume3 {*/
+    /*width: 66px;*/
+    /*height: 40px;*/
+    /*background-position: -155px -5px;*/
+/*}*/
+
+/*.sprite-costume4 {*/
+    /*width: 68px;*/
+    /*height: 40px;*/
+    /*background-position: -231px -5px;*/
+/*}*/
+
+/*.sprite-costume5 {*/
+    /*width: 64px;*/
+    /*height: 40px;*/
+    /*background-position: -309px -5px;*/
+/*}*/
