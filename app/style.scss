@@ -24,41 +24,13 @@
     100% {
         background-position: -4px -5px;
     }
-
 }
 
-/*.sprite {*/
-    /*background-image: url(spritesheet.png);*/
-    /*background-repeat: no-repeat;*/
-    /*display: block;*/
-/*}*/
+body {
+  margin: 0;
+}
 
-/*.sprite-costume1 {*/
-    /*width: 64px;*/
-    /*height: 40px;*/
-    /*background-position: -5px -5px;*/
-/*}*/
-
-/*.sprite-costume2 {*/
-    /*width: 66px;*/
-    /*height: 40px;*/
-    /*background-position: -79px -5px;*/
-/*}*/
-
-/*.sprite-costume3 {*/
-    /*width: 66px;*/
-    /*height: 40px;*/
-    /*background-position: -155px -5px;*/
-/*}*/
-
-/*.sprite-costume4 {*/
-    /*width: 68px;*/
-    /*height: 40px;*/
-    /*background-position: -231px -5px;*/
-/*}*/
-
-/*.sprite-costume5 {*/
-    /*width: 64px;*/
-    /*height: 40px;*/
-    /*background-position: -309px -5px;*/
-/*}*/
+#canvas {
+  display: block;
+  margin: 50px auto;
+}
