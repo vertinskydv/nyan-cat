@@ -1,36 +1,8 @@
-.cat {
-    background-image: url(img/nyan-png/cat-sprite.png);
-    width: 68px;
-    height: 40px;
-    animation: run-cat 0.4s step-start infinite;
-}
-
-@keyframes run-cat {
-    0% {
-        background-position: -4px -5px;
-    }
-    20% {
-        background-position: -78px -5px;
-    }
-    40% {
-        background-position: -154px -5px;
-    }
-    60% {
-        background-position: -234px -5px;
-    }
-    80% {
-        background-position: -308px -5px;
-    }
-    100% {
-        background-position: -4px -5px;
-    }
-}
-
 body {
   margin: 0;
 }
 
 #canvas {
   display: block;
-  margin: 50px auto;
+  margin: 10px auto;
 }
